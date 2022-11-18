@@ -28,7 +28,7 @@ namespace Sales
 
             #region ThrowFatalException
             // Uncomment to test throwing fatal exceptions
-            //throw new Exception("BOOM");
+            throw new Exception("BOOM");
             #endregion
 
             var orderPlaced = new OrderPlaced
